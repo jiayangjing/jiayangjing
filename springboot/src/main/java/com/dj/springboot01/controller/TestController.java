@@ -41,5 +41,10 @@ public class TestController {
         return "姓名"+user.getName()+"　年龄："+user.getAge()+"　性别："+user.getSex()+"　班级："+user.getClassroom()+"　编号："+user.getNum();
     }
 
+    @RequestMapping("")
+    @ResponseBody
+    public String get(){
+        return "";
+    }
 
 }
