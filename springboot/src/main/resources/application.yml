@@ -1,0 +1,30 @@
+# jsp的前缀和后缀
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/page/
+      suffix: .jsp
+# 应用启动的端口号默认是8080
+#server:
+#  port: 8080
+
+# jsp页面更新不用重新启动可以直接应用
+server:
+  servlet:
+    jsp:
+      init-parameters:
+        development: true
+
+com:
+  dj:
+    name: dj
+    age: 1
+
+
+cn:
+  dj:
+    name: zs
+    age: 11
+    sex: 1
+    classroom: 1703
+    num: 001
